@@ -7,8 +7,12 @@
 .container {
   border: 1px solid #bfd6e6;
   background-color: #dde9f3;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .activity {
+  background-repeat: no-repeat;
   margin: 10px;
   background-size: contain;
   width: 300px;
